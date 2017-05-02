@@ -1,9 +1,12 @@
+
+
+function [] = FFT_registration_PG_2017(d)
 clear all
-clc
+
 
 
 %d(1).name= '/Volumes/PGUPTA_3KFC/02032017/1/a.roi/';
-d(1).name= '/Volumes/Albeanu-Norepl/Photoncerber/Plane1/';
+%d(1).name= '/Volumes/Albeanu-Norepl/Photoncerber/Plane1/';
 
 %'C:/...'; % Add the raw data directory here
                      % If more than one directory, make a struct in which
@@ -115,4 +118,5 @@ for l = 1:size(d,2)
     file_counter
     
         end
-   end
+end
+end
